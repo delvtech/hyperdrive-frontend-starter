@@ -50,7 +50,7 @@ export function HomeView() {
     : "-";
 
   const formattedTvlFiat =
-    tvl && fiatPrice ? fixed(tvl).mul(fiatPrice).formatCurrency({}) : "-";
+    tvl && fiatPrice ? fixed(tvl).mul(fiatPrice).formatCurrency() : "-";
 
   return (
     <div className="flex w-full min-h-[100vh] bg-gradient-to-r from-blue-200 to-cyan-200 flex-col">
