@@ -1,5 +1,5 @@
 {
-  "name": "@delvtech/contracts",
+  "name": "@starter-repo/contracts",
   "version": "0.0.0",
   "license": "Apache-2.0",
   "main": "dist/index.js",

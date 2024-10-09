@@ -1,5 +1,5 @@
 {
-  "name": "@delvtech/core",
+  "name": "@starter-repo/core",
   "description": "Example core library for interacting with Hyperdrive",
   "version": "0.0.0",
   "license": "Apache-2.0",
@@ -17,9 +17,9 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@delvtech/eslint-config": "*",
-    "@delvtech/prettier-config": "*",
-    "@delvtech/tsconfig": "*",
+    "@starter-repo/eslint-config": "*",
+    "@starter-repo/prettier-config": "*",
+    "@starter-repo/tsconfig": "*",
     "dotenv": "^16.4.5",
     "prettier-plugin-organize-imports": "^3.2.4",
     "ts-node": "^10.9.1",

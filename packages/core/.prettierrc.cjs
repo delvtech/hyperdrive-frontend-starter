@@ -1,3 +1,3 @@
 module.exports = {
-  ...require("@delvtech/prettier-config"),
+  ...require("@starter-repo/prettier-config"),
 };

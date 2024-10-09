@@ -8,7 +8,7 @@ describe("HelloWorld", function () {
   // and reset Hardhat Network to that snapshot in every test.
   describe("sayHello", function () {
     it("Should say 'Hello, World!'", async function () {
-      const { helloWorld} = await loadFixture(helloWorldFixture);
+      const { helloWorld } = await loadFixture(helloWorldFixture);
       const result = await helloWorld.read.sayHello();
 
       expect(result).to.equal("Hello, World!");
