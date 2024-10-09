@@ -1,0 +1,24 @@
+{
+  "name": "@delvtech/eslint-config",
+  "version": "0.0.0",
+  "main": ".eslintrc.js",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.7.0",
+    "@typescript-eslint/parser": "^8.7.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-turbo": "latest",
+    "eslint-import-resolver-typescript": "^3.6.3",
+    "eslint-plugin-import": "^2.30.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-unicorn": "^55.0.0",
+    "typescript": "^5.6.2"
+  },
+  "peerDependencies": {
+    "eslint": "^9.11.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

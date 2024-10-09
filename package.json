@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "name": "hyperdrive-starter-monorepo",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "clean": "find . -name 'node_modules' -type d -prune -exec rm -rf '{}' + && yarn cache clean && yarn"
+  },
+  "devDependencies": {
+    "eslint": "^9.11.1",
+    "eslint-config-custom": "*",
+    "prettier": "3.3.3",
+    "turbo": "latest"
+  },
+  "packageManager": "yarn@1.22.18",
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "packages/*"
+    ],
+    "nohoist": [
+      "@delvtech/contracts",
+      "@delvtech/contracts/**"
+    ]
+  }
+}
