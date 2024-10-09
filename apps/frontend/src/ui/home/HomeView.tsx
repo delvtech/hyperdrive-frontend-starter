@@ -94,7 +94,8 @@ export function HomeView() {
         <div className="text-gray-600 text-sm">
           Building a smart contract? The <span>HelloWorld</span> contract found
           in this repo was deployed to Hardhat @{" "}
-          <span className="font-bold">{hardhatAddresses.HelloWorld}</span>
+          <span className="font-bold">{hardhatAddresses.HelloWorld}</span> and
+          can be called using standard Wagmi hooks.
         </div>
       </div>
     </div>
