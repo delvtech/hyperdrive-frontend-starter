@@ -1,0 +1,18 @@
+.DS_Store
+node_modules
+.env
+
+# Hardhat files
+/cache
+/artifacts
+
+# Forge files
+/out
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json

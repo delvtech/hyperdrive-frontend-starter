@@ -1,0 +1,9 @@
+{
+  "name": "@delvtech/prettier-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "prettier": "3.3.3"
+  }
+}
