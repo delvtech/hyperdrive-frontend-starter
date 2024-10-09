@@ -6,6 +6,7 @@ import {
 } from "@delvtech/hyperdrive-appconfig";
 import { useTvl } from "src/ui/hyperdrive/useTvl";
 import { fixed } from "@delvtech/fixed-point-wasm";
+import { useTokenFiatPrice } from "src/ui/tokens/useTokenFiatPrice";
 
 export function HomeView() {
   // AppConfig provides a strongly-typed object containing all static hyperdrive
@@ -28,17 +29,28 @@ export function HomeView() {
   });
 
   // To access real-time information on a hyperdrive instance, you can use
-  // custom useQuery hooks to call SDK methods
+  // custom useQuery hooks to call Hyperdrive SDK methods
   const { tvl } = useTvl({
     hyperdriveAddress: hyperdrives[0].address,
     chainId: hyperdrives[0].chainId,
   });
 
+  // Use useTokenFiatPrice hook to get the fiat price of the base token
+  const { fiatPrice } = useTokenFiatPrice({
+    tokenAddress: baseToken.address,
+    chainId: baseToken.chainId,
+  });
+
+  // the @delvtech/fixed-point-wasm package provides a convenient way to do math
+  // and format bigints
   const formattedTvl = tvl
     ? fixed(tvl).format({
         decimals: baseToken.places,
       })
     : "-";
+
+  const formattedTvlFiat =
+    tvl && fiatPrice ? fixed(tvl).mul(fiatPrice).formatCurrency({}) : "-";
 
   return (
     <div className="flex w-full min-h-[100vh] bg-gradient-to-r from-blue-200 to-cyan-200 flex-col">
@@ -80,7 +92,7 @@ export function HomeView() {
                 src={baseToken.iconUrl}
                 className="w-6 rounded-full inline"
               />{" "}
-              {formattedTvl} {baseToken.symbol}
+              {formattedTvl} {baseToken.symbol} ({formattedTvlFiat})
             </span>{" "}
             worth of assets.
           </div>
