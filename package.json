@@ -21,8 +21,8 @@
       "packages/*"
     ],
     "nohoist": [
-      "@delvtech/contracts",
-      "@delvtech/contracts/**"
+      "@starter-repo/contracts",
+      "@starter-repo/contracts/**"
     ]
   }
 }

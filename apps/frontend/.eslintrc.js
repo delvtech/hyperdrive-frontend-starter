@@ -7,8 +7,8 @@ module.exports = {
     "plugin:react/jsx-runtime",
     "plugin:tailwindcss/recommended",
     "plugin:@tanstack/eslint-plugin-query/recommended",
-    // @delvtech/eslint-config needs to be the last config extended because it includes prettier
-    "@delvtech/eslint-config",
+    // @starter-repo/eslint-config needs to be the last config extended because it includes prettier
+    "@starter-repo/eslint-config",
   ],
   rules: {
     // Disable ordering in favor of prettier plugin

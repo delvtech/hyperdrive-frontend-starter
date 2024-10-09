@@ -1,11 +1,11 @@
 {
-  "name": "@delvtech/tsconfig",
+  "name": "@starter-repo/tsconfig",
   "version": "0.0.0",
   "private": true,
   "files": [
     "react-library.json"
   ],
   "devDependencies": {
-    "@delvtech/eslint-config": "*"
+    "@starter-repo/eslint-config": "*"
   }
 }

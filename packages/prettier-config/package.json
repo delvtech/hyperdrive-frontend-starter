@@ -1,5 +1,5 @@
 {
-  "name": "@delvtech/prettier-config",
+  "name": "@starter-repo/prettier-config",
   "version": "1.0.0",
   "main": "index.js",
   "license": "Apache-2.0",

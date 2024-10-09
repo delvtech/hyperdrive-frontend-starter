@@ -1,5 +1,5 @@
 import { ConnectButton } from "@rainbow-me/rainbowkit";
-import { hardhatAddresses } from "@delvtech/contracts";
+import { hardhatAddresses } from "@starter-repo/contracts";
 import {
   findBaseToken,
   mainnetAppConfig,

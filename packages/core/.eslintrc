@@ -1,7 +1,7 @@
 {
   "root": true,
   "extends": [
-    "@delvtech/eslint-config"
+    "@starter-repo/eslint-config"
   ],
   "ignorePatterns": []
 }

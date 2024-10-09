@@ -1,5 +1,5 @@
 {
-  "extends": "@delvtech/tsconfig/base.json",
+  "extends": "@starter-repo/tsconfig/base.json",
   "include": ["src"],
   "exclude": ["node_modules"],
   "compilerOptions": {

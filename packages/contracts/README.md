@@ -10,16 +10,16 @@ any other apps and packages in the monorepo.
 
 ```shell
 # Compile the smart contracts
-yarn workspace @delvtech/contracts run build:contracts
+yarn workspace @starter-repo/contracts run build:contracts
 
 # Start the hardhat node
-yarn workspace @delvtech/contracts run start
+yarn workspace @starter-repo/contracts run start
 
 # Deploy the contracts to the local hardhat node
-yarn workspace @delvtech/contracts run deploy:local
+yarn workspace @starter-repo/contracts run deploy:local
 
 # Package up the abis and addresses for use in other apps and packages
-yarn workspace @delvtech/contracts run build:package
+yarn workspace @starter-repo/contracts run build:package
 ```
 
 ## Testing
@@ -27,5 +27,5 @@ yarn workspace @delvtech/contracts run build:package
 Run the tests
 
 ```shell
-yarn workspace @delvtech/contracts run test
+yarn workspace @starter-repo/contracts run test
 ```

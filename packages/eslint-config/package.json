@@ -1,5 +1,5 @@
 {
-  "name": "@delvtech/eslint-config",
+  "name": "@starter-repo/eslint-config",
   "version": "0.0.0",
   "main": ".eslintrc.js",
   "license": "Apache-2.0",
