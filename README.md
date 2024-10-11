@@ -1,6 +1,6 @@
 # Hyperdrive Starter Monorepo
 
-This is a starter monorepo for building frontends, TypeScript packages, or smart contracts that interact with the Hyperdrive protocol.
+This is a starter monorepo for building frontends or TypeScript packages that interact with the Hyperdrive protocol.
 
 ## Using this repo
 
