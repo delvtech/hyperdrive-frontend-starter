@@ -11,7 +11,7 @@ import {
 import {
   ReadWriteHyperdrive_v1_0_14,
   ReadWriteStEthHyperdrive_v1_0_14,
-} from "@delvtech/hyperdrive-viem/dist/v1.0.14";
+} from "@delvtech/hyperdrive-viem/v1.0.14";
 import semver from "semver";
 import { sdkCache } from "src/sdk/sdkCache";
 import { Address, PublicClient, WalletClient } from "viem";
