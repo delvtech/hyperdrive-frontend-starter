@@ -1,5 +1,4 @@
 import { ConnectButton } from "@rainbow-me/rainbowkit";
-import { hardhatAddresses } from "@starter-repo/contracts";
 import {
   findBaseToken,
   mainnetAppConfig,
@@ -104,10 +103,8 @@ export function HomeView() {
           </div>
         </div>
         <div className="text-gray-600 text-sm">
-          Building a smart contract? The <span>HelloWorld</span> contract found
-          in this repo was deployed to Hardhat @{" "}
-          <span className="font-bold">{hardhatAddresses.HelloWorld}</span> and
-          can be called using standard Wagmi hooks.
+          Building a smart contract? Checkout the smart contract starter repo
+          here:{" "}
         </div>
       </div>
     </div>
