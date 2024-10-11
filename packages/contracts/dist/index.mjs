@@ -1,2 +1,0 @@
-var l=Object.defineProperty;var n=(a,e)=>{for(var t in e)l(a,t,{get:e[t],enumerable:!0})};var p=[{stateMutability:"pure",type:"function",inputs:[],name:"sayHello",outputs:[{name:"",internalType:"string",type:"string"}]}];var s={};n(s,{HelloWorld:()=>c});var c="0x3ca5269b5c54d4c807ca0df7eeb2cb7a5327e77d";export{s as hardhatAddresses,p as helloWorldABI};
-//# sourceMappingURL=index.mjs.map

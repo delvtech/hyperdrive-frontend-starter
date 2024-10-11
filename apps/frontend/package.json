@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "@delvtech/fixed-point-wasm": "^0.0.5",
-    "@starter-repo/contracts": "*",
     "@tanstack/react-query": "^5.56.2",
     "@delvtech/hyperdrive-appconfig": "^0.0.1",
     "@delvtech/hyperdrive-viem": "^3.0.6",
