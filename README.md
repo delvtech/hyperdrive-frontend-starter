@@ -45,6 +45,7 @@ This repo includes the following packages and apps:
 Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
 
 ### Useful resources
+- Hyperdrive Solidity Starter repo: https://github.com/delvtech/hyperdrive-solidity-starter
 - The official DELV Hyperdrive Monorepo: https://github.com/delvtech/hyperdrive-frontend
 - Hyperdrive artifacts (Contract ABIs): https://www.npmjs.com/package/@delvtech/hyperdrive-artifacts
 - The Hyperdrive AppConfig package: https://www.npmjs.com/package/@delvtech/hyperdrive-appconfig 
