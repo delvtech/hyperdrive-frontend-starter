@@ -105,6 +105,12 @@ export function HomeView() {
         <div className="text-gray-600 text-sm">
           Building a smart contract? Checkout the smart contract starter repo
           here:{" "}
+          <a
+            className="daisy-link"
+            href="https://github.com/delvtech/hyperdrive-solidity-starter"
+          >
+            https://github.com/delvtech/hyperdrive-solidity-starter
+          </a>
         </div>
       </div>
     </div>
