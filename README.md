@@ -42,6 +42,7 @@ This repo includes the following packages and apps:
 - `prettier-config`: shared `prettier` configurations
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
+Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
 
 ### Useful resources
 - The official DELV Hyperdrive Monorepo: https://github.com/delvtech/hyperdrive-frontend
@@ -50,5 +51,3 @@ This repo includes the following packages and apps:
 - Fixed Point Math library: https://www.npmjs.com/package/@delvtech/fixed-point-wasm
 - Hyperdrive SDK Viem Bindings: https://www.npmjs.com/package/@delvtech/hyperdrive-viem
 - Hyperdrive SDK: https://www.npmjs.com/package/@delvtech/hyperdrive-js-core
-
-Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
